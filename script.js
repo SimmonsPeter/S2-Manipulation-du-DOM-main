@@ -1,4 +1,4 @@
-let panier = {
+const panier = {
     pommes: 0,
     poires: 0,
     prunes: 0,
