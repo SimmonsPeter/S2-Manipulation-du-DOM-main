@@ -1,17 +1,5 @@
-const panier = {
-    pommes: 0,
-    poires: 0,
-    prunes: 0,
-    pommesPrix: 0,
-    poiresPrix: 0,
-    prunesPrix: 0,
-    pommesPoids: 0,
-    poiresPoids: 0,
-    prunesPoids: 0,
-    total: 0,
-    totalPrix: 0,
-    totalPoids: 0
-}
+const panier = {pommes: 0,poires: 0,prunes: 0,pommesPrix: 0,poiresPrix: 0,prunesPrix: 0,pommesPoids: 0,poiresPoids: 0,prunesPoids: 0,total: 0,totalPrix: 0,totalPoids: 0}
+
 let sacDePommes = {
     prix: parseFloat(document.getElementById("prixSacDePommes").innerText),
     poids: parseInt(document.getElementById("poidsSacDePommes").innerText)
